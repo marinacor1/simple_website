@@ -6,12 +6,11 @@ content{
   width:100px;
   background-color: #ffffee;
 }
-footer
-{
+footer{
   font-family: Arial, sans-serif;
   font-size: 13px;
   padding: 5px;
-    }
+}
  #nav {
   width: 550px;
   height: 50px;
@@ -20,4 +19,4 @@ footer
   text-decoration: none;
   font-family: Lucinda console, monospace;
   padding-top: 80px;
-    }
+}
