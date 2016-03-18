@@ -4,34 +4,34 @@
 <link rel="stylesheet" type="text/css" href="main.css">
 <title>Recursion and Fibonacci Meet</title>
 <style>
-    body, html {
-        background-color: #ffccc0;
-        margin: 0;
-        font: Verdana, sans-serif;
-        padding: 20px;
-        font-family: Lucinda console,
-            monospace;
-        width: 1350px;
-    }
-    #display {
-        float: left;
-        width: 1000px;
-        margin-bottom: 100px;
-    }
-    #main {
-        width: 770px;
-        padding: 20px;
-        text-align: left;
-        font-size: 11px;
-        font-family: Lucinda console, monospace;
-    }
-    #nav {
-        width: 550px;
-        height: 50px;
-        bottom:0px;
-        text-decoration: none;
-        font-family: Arial, Verdana, sans-serif;
-    }
+  body, html {
+    background-color: #ffccc0;
+    margin: 0;
+    font: Verdana, sans-serif;
+    padding: 20px;
+    font-family: Lucinda console,
+        monospace;
+    width: 1350px;
+  }
+  #display {
+    float: left;
+    width: 1000px;
+    margin-bottom: 100px;
+  }
+  #main {
+    width: 770px;
+    padding: 20px;
+    text-align: left;
+    font-size: 11px;
+    font-family: Lucinda console, monospace;
+  }
+  #nav {
+    width: 550px;
+    height: 50px;
+    bottom:0px;
+    text-decoration: none;
+    font-family: Arial, Verdana, sans-serif;
+  }
 
 </style>
 <meta charset="utf-8">
@@ -42,8 +42,8 @@
         <a>
 <hr/>
 <a href="https://twitter.com" target="_blank">
-    <img src="twitter_icon.jpeg" height="50" width="50"></a>&nbsp; 
-<a href="http://linkedin.com" target="_blank"><img src="linked_in.png" height="50" width="50"></a>&nbsp; 
+    <img src="twitter_icon.jpeg" height="50" width="50"></a>&nbsp;
+<a href="http://linkedin.com" target="_blank"><img src="linked_in.png" height="50" width="50"></a>&nbsp;
 <a href="https://www.facebook.com" target="_blank"><img src="facebook_icon.png" height="50" width="50">
     </a>
     <h1>Recursion and Fibonacci Meet</h1>
@@ -52,8 +52,8 @@
 <content>
     <div id="main">
     <h3>
-    <p>
-        I first learned about recursion last week during our Sorting Suite project.  The project consisted of writing three programs; one for bubble sort, one for insertion sort and one for merge sort.  Merge Sort involves recursion.  If you’re not familiar with it, there’s a great dance that highlights what the sort actually does.
+<p>
+I first learned about recursion last week during our Sorting Suite project.  The project consisted of writing three programs; one for bubble sort, one for insertion sort and one for merge sort.  Merge Sort involves recursion.  If you’re not familiar with it, there’s a great dance that highlights what the sort actually does.
 </p>
 <p>
 Anyway, while the bubble sort and insertion sort took a relatively short amount of time to write, I hit a wall with recursion.  Recursion is essentially a process that calls upon itself. It reminds me a little bit of when you stand behind a mirror and look through a hand mirror and you get this repetition of your image to infinite, but recursion doesn’t want to go on and on until infinity because that would cause an infinite loop. Instead, there’s a simple structure to follow when using recursion and requires answering the following two questions.
@@ -74,7 +74,7 @@ Let’s look back at our initial two questions. What is the base case for the Fi
 3
 fib[0]= 0
 fib[1] = 1
-</p> 
+</p>
 <p>
 1
 fib[3] + fib[4] = fib[5]
@@ -82,20 +82,20 @@ Which can easily be translated to…
 </p>
 <p>
 fib[5] = fib[4] + fib[3]
-</p> 
+</p>
 <p>
 
 If we look at the relationship between these numbers, we can see it as the following difference:
 </p>
 <p>
 fib[n] = fib[n-1] + fib[n-2]
-</p> 
+</p>
 <p>
 So, now let’s put it all together: using the code and it should look something like the image below:
         </p>
         </div>
 <div id="display">
-    <img src="fib.png" alt="Fibonacci code" height="250" width="700"> 
+    <img src="fib.png" alt="Fibonacci code" height="250" width="700">
     </div>
 <br>
  </h3>
