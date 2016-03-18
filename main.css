@@ -1,17 +1,20 @@
 header {
   float: left;
 }
-content{
+content
+{
   padding: auto;
   width:100px;
-  background-color: #ffffee;
+  background-color: #30b7cf;
 }
-footer{
+footer
+{
   font-family: Arial, sans-serif;
   font-size: 13px;
   padding: 5px;
-}
- #nav {
+    }
+ #nav
+{
   width: 550px;
   height: 50px;
   bottom:0px;
@@ -19,4 +22,4 @@ footer{
   text-decoration: none;
   font-family: Lucinda console, monospace;
   padding-top: 80px;
-}
+    }
